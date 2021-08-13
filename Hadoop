@@ -1,1 +1,5 @@
  /home/hdoop/hadoop-2.10.1/bin/hadoop jar wc.jar WordCount /home/hdoop/input /home/hdoop/output
+
+
+
+Test environment: http://node5.ucdenver.pvt:50070/explorer.html#/home/hdoop
