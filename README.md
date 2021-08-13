@@ -1,6 +1,6 @@
 # BigDataImplementation
-Google Cloud Services
-Hadoop
+* Google Cloud Services
+* Hadoop
 MongoDB
 Scikit-Learn
 Spark (Dataproc Cluster)
