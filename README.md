@@ -8,7 +8,7 @@ Main cluster kubemaster.ucdenver.pvt
 * Spark (Dataproc Cluster)
 * Kafka
 * PostgreSQL 9.6
-**https://www.itwonderlab.com/en/postgres-kubernetes-nfs-volume/
+* * https://www.itwonderlab.com/en/postgres-kubernetes-nfs-volume/
 * TimeScaleDB
 * Anaconda 
 * Jupyter Notebook
