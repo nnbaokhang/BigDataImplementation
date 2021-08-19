@@ -8,3 +8,6 @@
 /home/hdoop/hadoop-2.10.1/bin/hdfs dfs -put WordCount.java /user/ngkhang/
 
 Test environment: http://node5.ucdenver.pvt:50070/explorer.html#/home/hdoop
+
+
+https://community.cloudera.com/t5/Support-Questions/Permission-denied-user-root-access-WRITE-inode-quot-user/td-p/4943
