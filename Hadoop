@@ -7,6 +7,9 @@
 /home/hdoop/hadoop-2.10.1/bin/hdfs dfs -chown ngkhang /user/ngkhang
 /home/hdoop/hadoop-2.10.1/bin/hdfs dfs -put WordCount.java /user/ngkhang/
 
+export HADOOP_CLASSPATH=$(/home/hdoop/hadoop-2.10.1/bin/hadoop classpath)
+javac -classpath ${HADOOP_CLASSPATH}  *.java
+
 Test environment: http://node5.ucdenver.pvt:50070/explorer.html#/home/hdoop
 
 
