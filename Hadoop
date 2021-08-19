@@ -1,4 +1,8 @@
  /home/hdoop/hadoop-2.10.1/bin/hadoop jar wc.jar WordCount /home/hdoop/input /home/hdoop/output
+ bin/hdfs dfs -mkdir /user/username
+ bin/hdfs dfs -mkdir /input
+ bin/hdfs dfs -put etc/hadoop/*.xml input
+ bin/hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.10.1.jar grep /input /output_KhangNguyen 'dfs[a-z.]+'
 
 
 
