@@ -4,6 +4,7 @@
  bin/hdfs dfs -put etc/hadoop/*.xml input
  bin/hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.10.1.jar grep /input /output_KhangNguyen 'dfs[a-z.]+'
 
-
+/home/hdoop/hadoop-2.10.1/bin/hdfs dfs -chown ngkhang /user/ngkhang
+/home/hdoop/hadoop-2.10.1/bin/hdfs dfs -put WordCount.java /user/ngkhang/
 
 Test environment: http://node5.ucdenver.pvt:50070/explorer.html#/home/hdoop
