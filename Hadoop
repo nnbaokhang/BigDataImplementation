@@ -9,6 +9,7 @@
 
 export HADOOP_CLASSPATH=$(/home/hdoop/hadoop-2.10.1/bin/hadoop classpath)
 javac -classpath ${HADOOP_CLASSPATH}  *.java
+sudo -u hdoop /home/hdoop/hadoop-2.10.1/bin/hadoop jar WordCount.jar WordCount /user/ngkhang/ /home/hdoop/output/4
 
 Test environment: http://node5.ucdenver.pvt:50070/explorer.html#/home/hdoop
 
